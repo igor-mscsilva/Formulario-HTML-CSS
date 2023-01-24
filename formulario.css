@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #380861;
+    margin-left: 7% ;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #380861;
+    margin-left: 12%;
+}
