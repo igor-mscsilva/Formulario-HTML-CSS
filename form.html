@@ -15,8 +15,8 @@
     </div>
 
     <form action="cadastro.php" class="grupo">
-        <fieldset>
-            <div>
+        <fieldset class="grupo">
+            <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
                 <input type="text" name="nome" id="inome" required>
             </div>
@@ -33,7 +33,7 @@
         </div>
 
         <div class="campo">
-            <label for="pergunta"><strong>De qual lado da aplicação você desenvolve?</strong> </label>
+            <label for="pergunta"><strong>De qual lado da aplicação você desenvolve?</strong></label><br><br>
             <label>
             <input type="radio" name="devweb" value="frontend" checked >Front-end
             </label>
@@ -45,9 +45,9 @@
             </label>
         </div>
 
-        <div>
+        <div class="campo">
             <label for="Senioridade"><strong>Senioridade</strong></label>
-            <select name="opcao" id="iopcao">
+            <select name="opcao" id="Senioridade">
                 <option selected disabled value="selecione">Selecione</option>
                 <option value="junior">Junior</option>
                 <option value="pleno">Pleno</option>
@@ -56,8 +56,8 @@
         </div>
 
         <fieldset class="grupo">
-            <div>
-                <label for=""><strong>Selecione as tecnologias que utiliza:</strong></label>
+            <div id="check">
+                <label for=""><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
                 <input type="checkbox" name="tec1" id="itec1" value="HTML">
                 <label for="itec1" >HTML</label>
                 <input type="checkbox" name="tec2" id="itec2" value="CSS">
@@ -75,14 +75,14 @@
             </div>
         </fieldset>
 
-        <div>
+        <div class="campo">
             <br>
             <label for="exp"><strong>Conte um pouco da sua experiência:</strong></label>
-            <textarea name="exp" id="iexp" cols="30" rows="6" style="width: 26em;"></textarea>
+            <textarea name="exp" id="iexp" cols="30" rows="6" style="width: 27em;"></textarea>
         </div>
 
         <button type="submit" class="botao">Concluido</button>
-        <button type="reset" class="botao">Limpar</button>
+        
         
     </form>
     
